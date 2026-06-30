@@ -1,0 +1,46 @@
+# Dependências
+**/node_modules/
+
+# Expo / React Native
+**/.expo/
+**/dist/
+**/web-build/
+**/expo-env.d.ts
+**/android/
+**/ios/
+**/.kotlin/
+
+# Firebase / cache
+**/.firebase/
+**/.dataconnect
+
+# Ambiente (nunca versionar segredos)
+**/.env
+**/.env.*
+
+# Logs e SO
+*.log
+npm-debug.*
+.DS_Store
+Thumbs.db
+
+# Build / artefatos
+*.tsbuildinfo
+**/build/Release
+**/coverage
+**/.nyc_output
+*.apk
+**/releases/*.apk
+
+# IDE
+**/.cursor/
+.idea/
+.vscode/
+
+# Temporários locais
+_rollback_block_*.txt
+
+# Subprojetos com repositório Git próprio (versionados separadamente)
+/Kinevo_Alunos/
+/Kinevo_v2/
+/Kinevo Pro/
