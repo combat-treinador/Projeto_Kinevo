@@ -12,8 +12,8 @@ node docs/agent-sessions/scripts/export-agent-transcripts.mjs
 
 | Sessão | Mensagens (U/A) | Prévia | Arquivo |
 |--------|-----------------|--------|---------|
-| [`662ec52c`](./archives/662ec52c-4257-4559-beb0-7c152a1e4c8f/662ec52c-4257-4559-beb0-7c152a1e4c8f.md) | 592 / 1878 | Contexto: O kinevo-mobile finalizou sua fase de UI/UX (Mock-Driven). Agora vamos iniciar a Fase de Integração Cloud. Precisamos estruturar a Camada de Serviço e… | `662ec52c-4257-4559-beb0-7c152a1e4c8f/662ec52c-4257-4559-beb0-7c152a1e4c8f.md` |
-| [`78936e37`](./archives/78936e37-018a-4828-a80e-fe8898ca70b1/78936e37-018a-4828-a80e-fe8898ca70b1.md) | 194 / 586 | @f:\cursor_corre_o_de_caminhos_relativos_no.md essa é a conversa salva anteriormente para o kinevo web, nós vamos retomar, vamos fazer uma adição de função, faç… | `78936e37-018a-4828-a80e-fe8898ca70b1/78936e37-018a-4828-a80e-fe8898ca70b1.md` |
+| [`662ec52c`](./archives/662ec52c-4257-4559-beb0-7c152a1e4c8f/662ec52c-4257-4559-beb0-7c152a1e4c8f.md) | 602 / 1901 | Contexto: O kinevo-mobile finalizou sua fase de UI/UX (Mock-Driven). Agora vamos iniciar a Fase de Integração Cloud. Precisamos estruturar a Camada de Serviço e… | `662ec52c-4257-4559-beb0-7c152a1e4c8f/662ec52c-4257-4559-beb0-7c152a1e4c8f.md` |
+| [`78936e37`](./archives/78936e37-018a-4828-a80e-fe8898ca70b1/78936e37-018a-4828-a80e-fe8898ca70b1.md) | 195 / 590 | @f:\cursor_corre_o_de_caminhos_relativos_no.md essa é a conversa salva anteriormente para o kinevo web, nós vamos retomar, vamos fazer uma adição de função, faç… | `78936e37-018a-4828-a80e-fe8898ca70b1/78936e37-018a-4828-a80e-fe8898ca70b1.md` |
 | [`c0b016ef`](./archives/c0b016ef-02da-473a-810f-976119a8fa1f/c0b016ef-02da-473a-810f-976119a8fa1f.md) | 94 / 322 | @Kinevo_v2 @Kinevo Pro @Kinevo_Alunos faça a leitura completa e entenda o projeto | `c0b016ef-02da-473a-810f-976119a8fa1f/c0b016ef-02da-473a-810f-976119a8fa1f.md` |
 
 ## Subagentes
@@ -46,16 +46,25 @@ node docs/agent-sessions/scripts/export-agent-transcripts.mjs
 - Sessão de treino, circuito/EMOM, bi-sets, técnicas
 - Data loss em `completedExercises` + persistência AsyncStorage
 - Loop automático execução↔descanso em exercícios de tempo
-- Commit: `0b7a4cc` em `origin/master`
+- DESC. do card concluído via Total − Ativo (`d3b2282`)
+- **Cancelar Exercício** isolado: `handleCancelExercise`, `clearAbortedExerciseStoreState`, `beginSafeWorkoutExit` (`524683a`)
+- Rodapé: um botão Cancelar Exercício + Cancelar Treino lado a lado
 
 ### Web (`Kinevo_v2` + `Kinevo Pro`) — sessão `78936e37`
 - Retomada de conversa exportada (caminhos relativos / Performance)
 - Arquivamento de laudos em `laudosAlunos`
 - Variação por mesociclo, métodos, chat/WhatsApp
+- Drag-and-drop de semanas no editor (`editorState.js`, `app.js`)
+- Volume por blocos/técnicas + pausa de periodização (`exerciseProfileManager.js`, `43464be`)
+- Campo `intervalo` nas técnicas da biblioteca — Cloud Function (`2e53192`)
 
 ### Ecossistema + Web UI — sessão `c0b016ef`
 - Mapa completo Kinevo_v2 / Kinevo Pro / Kinevo_Alunos
 - Edição em massa: excluir e adicionar exercício na biblioteca
+
+### Salvamento completo do projeto
+- Vasculhar **4 repositórios Git**: `Projeto_Kinevo`, `Kinevo_Alunos`, `Kinevo_v2`, `Kinevo Pro`
+- Conversas: `node docs/agent-sessions/scripts/export-agent-transcripts.mjs`
 
 ## Localização original (Cursor)
 
