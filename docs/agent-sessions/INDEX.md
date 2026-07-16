@@ -12,7 +12,7 @@ node docs/agent-sessions/scripts/export-agent-transcripts.mjs
 
 | Sessão | Mensagens (U/A) | Prévia | Arquivo |
 |--------|-----------------|--------|---------|
-| [`662ec52c`](./archives/662ec52c-4257-4559-beb0-7c152a1e4c8f/662ec52c-4257-4559-beb0-7c152a1e4c8f.md) | 602 / 1901 | Contexto: O kinevo-mobile finalizou sua fase de UI/UX (Mock-Driven). Agora vamos iniciar a Fase de Integração Cloud. Precisamos estruturar a Camada de Serviço e… | `662ec52c-4257-4559-beb0-7c152a1e4c8f/662ec52c-4257-4559-beb0-7c152a1e4c8f.md` |
+| [`662ec52c`](./archives/662ec52c-4257-4559-beb0-7c152a1e4c8f/662ec52c-4257-4559-beb0-7c152a1e4c8f.md) | 603 / 1904 | Contexto: O kinevo-mobile finalizou sua fase de UI/UX (Mock-Driven). Agora vamos iniciar a Fase de Integração Cloud. Precisamos estruturar a Camada de Serviço e… | `662ec52c-4257-4559-beb0-7c152a1e4c8f/662ec52c-4257-4559-beb0-7c152a1e4c8f.md` |
 | [`78936e37`](./archives/78936e37-018a-4828-a80e-fe8898ca70b1/78936e37-018a-4828-a80e-fe8898ca70b1.md) | 195 / 590 | @f:\cursor_corre_o_de_caminhos_relativos_no.md essa é a conversa salva anteriormente para o kinevo web, nós vamos retomar, vamos fazer uma adição de função, faç… | `78936e37-018a-4828-a80e-fe8898ca70b1/78936e37-018a-4828-a80e-fe8898ca70b1.md` |
 | [`c0b016ef`](./archives/c0b016ef-02da-473a-810f-976119a8fa1f/c0b016ef-02da-473a-810f-976119a8fa1f.md) | 94 / 322 | @Kinevo_v2 @Kinevo Pro @Kinevo_Alunos faça a leitura completa e entenda o projeto | `c0b016ef-02da-473a-810f-976119a8fa1f/c0b016ef-02da-473a-810f-976119a8fa1f.md` |
 
